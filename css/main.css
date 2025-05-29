@@ -1479,36 +1479,7 @@
             box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
         }
 
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .booking-container {
-                grid-template-columns: 1fr;
-                margin: 10px;
-            }
-            
-            .booking-form {
-                padding: 20px;
-            }
-            
-            .address-row,
-            .datetime-row {
-                grid-template-columns: 1fr;
-            }
-            
-            .dropdown-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .form-buttons {
-                flex-direction: column;
-            }
-            
-            .form-buttons .btn {
-                max-width: none;
-            }
-        }
-
-
+     
 
 
 
@@ -1606,6 +1577,14 @@
 
     .booking-summary {
         padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 }
 
